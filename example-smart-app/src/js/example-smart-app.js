@@ -94,7 +94,7 @@
       diastolicbp: {value: ''},
       ldl: {value: ''},
       hdl: {value: ''},
-    };
+      medications: {value: ''};
   }
 
   function getBloodPressureValue(BPObservations, typeOfPressure) {
@@ -137,6 +137,7 @@
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
+    $('#medicationList').html(p.medications);
   };
 
 })(window);
